@@ -31,9 +31,13 @@
     </mat-form-field>
 
     <mat-form-field>
-      <input matInput placeholder="Your birthdate">
+      <input 
+      matInput 
+      placeholder="Your birthdate" 
+      [matDatepicker]="picker"
+      [max]="maxDate">
       <!-- Datepicker toggle opens the datepicker -->
-      <mat-datepicker-toggle [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <!-- Here is the actual datepicker -->
       <mat-datepicker #picker ></mat-datepicker>
     </mat-form-field>
