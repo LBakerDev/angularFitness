@@ -30,6 +30,14 @@
 
     </mat-form-field>
 
+    <mat-form-field>
+      <input matInput placeholder="Your birthdate">
+      <!-- Datepicker toggle opens the datepicker -->
+      <mat-datepicker-toggle [for]="picker"></mat-datepicker-toggle>
+      <!-- Here is the actual datepicker -->
+      <mat-datepicker #picker ></mat-datepicker>
+    </mat-form-field>
+
     <button type="submit" mat-raised-button color="primary">Submit</button>
 
   </form>
