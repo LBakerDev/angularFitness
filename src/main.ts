@@ -1,4 +1,3 @@
-//allows for gesture functionality
 import 'hammerjs';
 
 import { enableProdMode } from '@angular/core';
