@@ -12,7 +12,8 @@ import {
     MatListModule,
     MatTabsModule,
     MatCardModule,
-    MatSelectModule
+    MatSelectModule,
+    MatProgressSpinnerModule
 } from '@angular/material';
 
 
@@ -22,15 +23,15 @@ import {
         MatFormFieldModule, MatInputModule,
         MatDatepickerModule, MatNativeDateModule, MatCheckboxModule,
         MatSidenavModule, MatToolbarModule, MatListModule, MatTabsModule,
-        MatCardModule, MatSelectModule
+        MatCardModule, MatSelectModule, MatProgressSpinnerModule
     ],
 
     exports: [
         MatButtonModule, MatIconModule,
         MatFormFieldModule, MatInputModule,
         MatDatepickerModule, MatNativeDateModule, MatCheckboxModule,
-        MatSidenavModule, MatToolbarModule, MatListModule, MatTabsModule, 
-        MatCardModule, MatSelectModule
+        MatSidenavModule, MatToolbarModule, MatListModule, MatTabsModule,
+        MatCardModule, MatSelectModule, MatProgressSpinnerModule
     ]
 })
 
